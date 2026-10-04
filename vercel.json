@@ -1,9 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "pages/api/**/*.js",
-      "use": "@vercel/node"
+  "functions": {
+    "pages/api/**/*.js": {
+      "runtime": "nodejs18.x"
     }
-  ]
+  }
 }
