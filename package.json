@@ -1,0 +1,14 @@
+{
+  "name": "lawlaw-notifications-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.3.0",
+    "next": "^14.2.5"
+  }
+}
